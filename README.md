@@ -3,6 +3,20 @@
 Simple ReAct agent
 Agent generated with `agents-cli` version `1.9.0`
 
+## Steps to reproduce
+```
+uvx google-agents-cli setup
+
+agents-cli create customer-support-agent -i
+python-adk->deployment:none->use Vertex AI
+
+cd customer-support-agent && agents-cli install
+
+edit app/agent.py and paste the sample code
+agents-cli playground
+```
+
+
 ## Project Structure
 
 ```
